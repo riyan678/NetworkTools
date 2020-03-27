@@ -5,7 +5,7 @@ from pprint import pprint
 username = input('Enter you Username: ')
 password = getpass()
 ip = input('Enter fqdn to connect or ip address (default is 172.24.105.14): ') or '172.24.105.14'
-enable = 'LC+C$'
+enable = input('Enter the enable secret: ')
 
 Core_Switch = {
                 'device_type': 'cisco_ios',
